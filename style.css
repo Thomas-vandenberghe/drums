@@ -1,14 +1,17 @@
 html {
     font-size: 12px;
-    background: url('./drum.jpg') center;
-    background-size: contain;
+    background-color: black;
+    background-size:auto;
     font-weight: bold;
+    padding:0%;
   }
   
-  body,html {
+  body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    background: url('./drums1.png') center;
+      background-repeat: no-repeat;
   }
   
   .keys {
@@ -23,13 +26,14 @@ html {
   .key {
     border: .4rem solid black;
     border-radius: .5rem;
-    margin: 1rem;
+    margin: 0.5rem;
     font-size: 1.5rem;
-    padding: 1rem .5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     transition: all .07s ease;
     width: 10rem;
     text-align: center;
-    color: rgb(107, 10, 10);
+    color: rgb(236, 54, 9);
     background: rgba(0,0,0,0.4);
     text-shadow: 0 0 .5rem black;
   }
